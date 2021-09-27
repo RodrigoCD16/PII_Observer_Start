@@ -11,8 +11,6 @@ namespace Observer
 
         public const int Delay = 1000;
 
-
-
         private List<IObserver<Temperature>> observers = new List<IObserver<Temperature>>();
 
         public Temperature Current { get; private set; }
